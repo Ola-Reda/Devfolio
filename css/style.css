@@ -1,0 +1,14 @@
+body {
+    /* height: 2000px; */
+}
+/*navbar*/
+/*navbar*/
+
+/*main*/
+main {
+    background: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+/*main*/
