@@ -1,14 +1,53 @@
+:root {
+    --main-color: #0078ff;
+}
+
 body {
-    /* height: 2000px; */
+    background-color: #f5f5f5;
 }
 /*navbar*/
 /*navbar*/
-
 /*main*/
 main {
-    background: url(../images/hero-bg.jpg);
+    background: url(../images/hero-bg.jpg), #010101;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
 }
+
+main .content {
+    color: white;
+    font-weight: 600;
+}
+
+main .content h1 {
+    font-size: 4.5rem;
+}
+
+main .content span {
+    font-size: 2.5rem;
+}
 /*main*/
+/*title*/
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #4e4e4e;
+    position: relative;
+}
+
+.subtitle::after {
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    height: 5px;
+    width: 50px;
+    bottom: -10px;
+}
+/*title*/
+/*section services*/
+/*section services*/
