@@ -32,7 +32,7 @@ a {
 /*navbar*/
 /*main*/
 main {
-    background: url(../images/hero-bg.jpg), linear-gradient(#eb01a5, #d13531);
+    background: linear-gradient(#0000008a,#0000008a),url(../images/hero-bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
